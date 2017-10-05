@@ -190,67 +190,47 @@ using namespace std;
 				
 				
 
-			//}
-			//on last line
-//			else
-//			{
-//
-//				temporary_string.resize(num_chars_on_this_line + 1);
-//				
-//				for (i = 0; i <= num_chars_on_this_line; i++)
-//				{
-//			
-//					temporary_string[i] = test_string[total_offset + i];
-//					
-//
-//				}
-//
-//
-//			}
-
-
-
 			
-			////////////////
-
-
-
-
-/*
-
-			if (on_last_line != 1)
-			{
-			
-			int k = 0;
-			//find number of characters ON right border
-			for (k; k < num_chars_on_this_line; k++)
-			{
 
 
 
 
 
-				if (temporary_string[k] == ' ')
+
+				if (on_last_line != 1)
 				{
 
+					int k = 0;
+					//find number of characters ON right border
+					for (k; k < num_chars_on_this_line; k++)
+					{
 
-					amt_letters_of_last_word = 0;
+
+
+
+
+						if (temporary_string[k] == ' ')
+						{
+
+
+							amt_letters_of_last_word = 0;
+
+						}
+						//is not a space
+						else
+						{
+							amt_letters_of_last_word++;
+						}
+
+
+
+
+
+					}
 
 				}
-				//is not a space
-				else
-				{
-					amt_letters_of_last_word++;
-				}
-
-
-
-				
-
-			}
 
 			
-	*/		
 /*
 
 				//current teststring 
