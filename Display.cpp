@@ -230,7 +230,8 @@ using namespace std;
 
 				}
 				
-			
+	
+
 /*
 
 				//current teststring 
